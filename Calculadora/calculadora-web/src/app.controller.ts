@@ -1,11 +1,11 @@
-import {Controller, Get, Headers, Response, HttpCode} from '@nestjs/common';
+import {Controller, Get,Headers, Put,Delete,Response, HttpCode, Post} from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller('/api')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
+  @Get('/suma')
   @HttpCode(201)
   suma(@Headers() headers, @Response() response){
     const num1=Number(headers.num1)
@@ -20,4 +20,6 @@ export class AppController {
       })
     }
   }
+  @Post('/')
+
 }
