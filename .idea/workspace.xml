@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/calculadora-web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/calculadora-web/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/calculadora-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/calculadora-web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/calculadora-web/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/calculadora-web/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/calculadora-web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/calculadora-web/src/main.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +20,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculadora/calculadora-web/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="86">
+              <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
               <folding>
-                <element signature="e#0#116#0" expanded="true" />
+                <element signature="e#0#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Calculadora/calculadora-web/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -61,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/Calculadora/calculadora-web/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -92,9 +90,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1913" />
-    <option name="width" value="954" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -175,7 +173,7 @@
       <workItem from="1555796832298" duration="10581000" />
       <workItem from="1556046241539" duration="4227000" />
       <workItem from="1556054053295" duration="40000" />
-      <workItem from="1556418798297" duration="9030000" />
+      <workItem from="1556418798297" duration="15251000" />
     </task>
     <task id="LOCAL-00001" summary="Deber 2 primer avance">
       <created>1556429819776</created>
@@ -188,13 +186,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23878000" />
+    <option name="totallyTimeSpent" value="30099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="954" height="735" extended-state="0" />
+    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36681223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16443452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,7 +205,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33506945" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47521368" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -225,7 +223,7 @@
     <entry file="file://$PROJECT_DIR$/Calculadora/calculadora-web/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -245,7 +243,7 @@
     <entry file="file://$PROJECT_DIR$/Calculadora/calculadora-web/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -254,10 +252,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculadora/calculadora-web/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="86">
+          <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
           <folding>
-            <element signature="e#0#116#0" expanded="true" />
+            <element signature="e#0#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
