@@ -58,12 +58,12 @@ export class AppController {
         if (this.validarNumros(num1,num2)) {
 
             const suma = num1 + num2;
-            const miCookie = Number(req.cookies.contador)
+            const miCookie = Number(req.signedCookies.contador)
             if (miCookie) {
                 console.log("puntos disponibles" + req.signedCookies.contador)
                 if (!((miCookie - suma) <= 0)) {
                     response.cookie(
-                        'contador', miCookie - suma, {overwrite: true}
+                        'contador', miCookie - suma, {overwrite: true, signed:true}
                     )
                 } else {
                     response.send(
@@ -78,7 +78,7 @@ export class AppController {
                 }
             } else {
                 response.cookie(
-                    'contador', 100, {}
+                    'contador', 100, {signed: true}
                 )
             }
             return response.send({
@@ -105,12 +105,12 @@ export class AppController {
         if (this.validarNumros(num1,num2)) {
 
             const resta = num1 - num2;
-            const miCookie = Number(req.cookies.contador)
+            const miCookie = Number(req.signedCookies.contador)
             if (miCookie) {
                 console.log("puntos disponibles" + req.signedCookies.contador)
                 if (!((miCookie - resta) <= 0)) {
                     response.cookie(
-                        'contador', miCookie - resta, {overwrite: true}
+                        'contador', miCookie - resta, {overwrite: true, signed:true}
                     )
                 } else {
                     response.send(
@@ -124,7 +124,7 @@ export class AppController {
                 }
             } else {
                 response.cookie(
-                    'contador', 100, {}
+                    'contador', 100, {signed: true}
                 )
             }
             return response.send({
@@ -149,12 +149,12 @@ export class AppController {
         if (this.validarNumros(num1,num2)) {
 
             const multiplicacion = num1 * num2;
-            const miCookie = Number(req.cookies.contador)
+            const miCookie = Number(req.signedCookies.contador)
             if (miCookie) {
                 console.log("puntos disponibles" + req.signedCookies.contador)
                 if (!((miCookie - multiplicacion) <= 0)) {
                     response.cookie(
-                        'contador', miCookie - multiplicacion, {overwrite: true}
+                        'contador', miCookie - multiplicacion, {overwrite: true, signed:true}
                     )
                 } else {
                     response.send(
@@ -169,7 +169,7 @@ export class AppController {
                 }
             } else {
                 response.cookie(
-                    'contador', 100, {}
+                    'contador', 100, {signed: true}
                 )
             }
             return response.send({
@@ -192,15 +192,16 @@ export class AppController {
         const num1 = Number(query.num1)
         const num2 = Number(header.num2)
 
+
         if (this.validarNumros(num1,num2) && num2!=0) {
 
             const division = num1 / num2;
-            const miCookie = Number(req.cookies.contador)
+            const miCookie = Number(req.signedCookies.contador)
             if (miCookie) {
                 console.log("puntos disponibles" + req.signedCookies.contador)
                 if (!((miCookie - division) <= 0)) {
                     response.cookie(
-                        'contador', miCookie - division, {overwrite: true}
+                        'contador', miCookie - division, {overwrite: true, signed: true}
                     )
                 } else {
                     response.send(
@@ -215,11 +216,11 @@ export class AppController {
                 }
             } else {
                 response.cookie(
-                    'contador', 100, {}
+                    'contador', 100, {signed: true}
                 )
             }
             return response.send({
-                suma: num1 + num2
+                division: division
             });
         } else {
             response.send(
@@ -232,7 +233,7 @@ export class AppController {
 
     }
 
-    
+
 
 
 }
